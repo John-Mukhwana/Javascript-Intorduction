@@ -21,9 +21,15 @@ else if(a>c){
 else{
     console.log("a is greater than b but less than c")
 }
-/*for loop */
-var i;
+/*for loop to print numbers from 1 to 10 */
+var i=1;
 var b=10;
-for(i=1;i<=b;i++){
+/*for(i=1;i<=b;i++){
     console.log(i)
+}*/
+/*While loop*/
+while(i<=b){
+   
+    console.log(i)
+    i++
 }
