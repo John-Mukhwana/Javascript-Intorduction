@@ -6,11 +6,18 @@ let fullName=firstName +  lastName;
 console.log(fullName)
 /*Control Structures*/
 //var Name = prompt("ENTER NUMBER A:");
-var a=10;
+var a=50;
 var b=30;
-if (a>b){
+var c=60;
+if (a<b){
     console.log("a is greater than b");
 }
-else{
+/*else{
     console.log("b is greater than a")
+}*/
+else if(a>c){
+    console.log("a is greater than b and greater than c")
+}
+else{
+    console.log("a is greater than b but less than c")
 }
