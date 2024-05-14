@@ -28,8 +28,15 @@ var b=10;
     console.log(i)
 }*/
 /*While loop*/
-while(i<=b){
+
+/*while(i<=b){
    
     console.log(i)
     i++
 }
+/*do while loop*/
+do{
+    console.log(i)
+    i++
+}
+while(i<=b)
