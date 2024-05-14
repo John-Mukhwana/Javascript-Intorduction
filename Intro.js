@@ -48,19 +48,6 @@ console.log(now.toLocaleDateString());
 console.log(now.toLocaleTimeString());
 
 /*MATHS IN JS*/
-//Math Objects.
-console.log(Math.PI);
-//Mathe Methods
-console.log(Math.sqrt(3));
-console.log(Math.pow(2,3));
-console.log(Math.floor(10.4));
-console.log(Math.ceil(10.5));
-console.log(Math.max(10,20,40,80));
-console.log(Math.min(5,20,10,69,80,70));
-console.log(Math.random());
-console.log(Math.sin(0.0482));
-console.log(Math.cos(0.0482));
-console.log(Math.tan(0.482));
 
 //ARRAYS IN JAVASCRIPT.
 /*let fruits=['apple','banana','mango','orange','grapes' ];
@@ -74,15 +61,4 @@ let people=[
        loactio:'Busia',
     }
 ];*/
-//for in Loop with objects
-let person={
-    jina:'john ',
-    age:'30',
-    city:'New city'
-};
-for(let key in person){// key represents each property /key ofthe object during each literation
-  
-    console.log(key + ':', person[key]);
-};
 
-/*Using for loop to print shapes and numbers*/
