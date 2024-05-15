@@ -45,8 +45,12 @@ let persons=[
 //     console.log(`my name is ${persons[i].firstName} `);
 
 // }
-persons.forEach(
-    person=>{//defines an anonymous fuction tha will execute for each elememnt
-        console.log(`my name is, ${person.firstName}`);
-    }
-)
+// persons.forEach(
+//     person=>{//defines an anonymous fuction tha will execute for each
+//         console.log(`my name is, ${person.firstName}`);
+//     }
+// )
+Object.keys(persons).map((key)=> {
+   
+    console.log(persons[key].firstName);
+})
