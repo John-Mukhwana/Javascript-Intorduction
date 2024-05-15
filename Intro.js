@@ -47,7 +47,6 @@ console.log(now.getMonth());
 console.log(now.toLocaleDateString());
 console.log(now.toLocaleTimeString());
 
-/*MATHS IN JS*/
 
 //ARRAYS IN JAVASCRIPT.
 /*let fruits=['apple','banana','mango','orange','grapes' ];
